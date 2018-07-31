@@ -1,0 +1,50 @@
+/*
+ Theme Name:   Owl-press
+ Description:  Theme DFCO promotion (ACS Dijon)
+ Author:       Alexandre Bouhand & Ludovic Ralambotsirofo
+ Author URI:   https://github.com/alexandreb21000/owl_press
+ Template:     activello
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, grid, right-sidebar, responsive-layout, accessibility-ready, blog
+ Text Domain:  Owl-press
+*/
+
+body{
+    background-color: #FAFAFA;
+    font-family: 'Oswald', sans-serif!important;
+}
+
+.w-65p{width: 50%;}
+
+.m-l-50{margin-left: 50px;}
+
+.post-inner-content {
+    background-color : #FFF;
+    margin-bottom: 10px;
+    text-align: justify;
+    padding: 50px!important;
+}
+
+.entry-content {font-family: 'Lora', serif;}
+
+.single-category{display:none;}
+
+hr{
+    border:none;
+    border-top:2px solid #D31F43;
+    height: 1px;
+    overflow: visible;
+    color: #D31F43;    
+}
+
+.cat-title {display:none;}
+
+#colophon {display: none;}
+
+/*Responsive*/
+
+@media screen and (max-width: 600px){ /*Smartphones*/
+    #sfwa_footer{display: none;}
+}
